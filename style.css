@@ -3,3 +3,33 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    width: 30vw;
+    height: 80vh;
+    position: relative;
+}
+/* to overlap the images on top of each other*/
+.img-container-after,.img-container-before{
+    position: absolute;
+    width: 30vw;
+    height: 80vh;
+}
+
+.img-container-before{
+    width: 15vw;
+    overflow: hidden;
+}
+img{
+    width: 30vw;
+    height: 80vh;
+    /*object-fit to get the image good at diff sizes of the screen */
+    object-fit: cover;
+}
