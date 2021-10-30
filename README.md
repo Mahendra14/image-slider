@@ -6,6 +6,6 @@ A fun  implementation of the image slider with a small bar to slide the image le
 
 
 Images used are from the below links:
-Before Image: https://i.imgur.com/s08MkXC.jpg
+After Image: https://i.imgur.com/s08MkXC.jpg
 
-After Image: https://i.imgur.com/PfIWek4.jpg
+Before Image: https://i.imgur.com/PfIWek4.jpg
