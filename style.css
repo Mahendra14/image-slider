@@ -44,4 +44,6 @@ img{
     z-index: 10;
     position: absolute;
     transform: translate(-50%,0);
+    /* adding this willl take off the jitteriness and add some equality and ease to the image */
+    pointer-events: none;
 }
