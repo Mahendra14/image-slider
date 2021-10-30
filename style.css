@@ -33,3 +33,15 @@ img{
     /*object-fit to get the image good at diff sizes of the screen */
     object-fit: cover;
 }
+
+
+.slider{
+    width: 0.5rem;
+    background: white;
+    height: 100%;
+    top: 0;
+    left: 50%;
+    z-index: 10;
+    position: absolute;
+    transform: translate(-50%,0);
+}
